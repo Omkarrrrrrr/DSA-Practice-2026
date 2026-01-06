@@ -11,9 +11,14 @@ public class Reversal {
         }
 
         //reversal array
-        System.out.println("Reversal of an array is: ");
-        for(int i = 0;i < arr.length; i++){
-            System.out.print(arr[i] + " ");
+        // System.out.println("Reversal of an array is: ");
+        // for(int i = 0;i < arr.length; i++){
+        //     System.out.print(arr[i] + " ");
+        // }
+
+        //enhanced for loop
+        for (int num : arr) {
+            System.out.print(num + " ");
         }
     }
 }
